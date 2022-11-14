@@ -1,16 +1,16 @@
 <template>
-  <div>
-    <!-- <Navbar /> -->
-    <NuxtPage />
-  </div>
+  <NavbarComponent />
+  <NuxtPage />
 </template>
 
-<script>
-export default {
-  head(){
-    return {
-      title:"Marco Fabbri"
-    }
-  }
+<style>
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.2s;
 }
-</script>
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+</style>

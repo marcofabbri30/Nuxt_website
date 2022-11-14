@@ -1,6 +1,5 @@
 <template>
-  <Navbar />
-    <section>
-      <p>This page will be displayed at the /about route.</p>
-    </section>
+  <div>
+    <h1>About page</h1>    
+  </div>
 </template>
